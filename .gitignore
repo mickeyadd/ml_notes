@@ -1,0 +1,56 @@
+# Virtual environment
+chatgpt_venv/
+
+
+# Python virtualenv directories (common patterns)
+venv/
+env/
+Miscellaneous/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / Editor-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive files / environment configs
+.env
+*.env
+secrets.json
+
+# Data files (prevent committing local data)
+*.csv
+*.xlsx
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.png
+*.yml
+
+
+# Outputs / Reports / Notebooks you don’t want tracked
+sandbox.ipynb
+chatgpt_local.py
+mosaic_gpt.py
+
+Screenshot 2025-01-15 at 16.20.45.png
+Machine Learning Notes/Classification Models/cb_2022_us_state_20m/
+*.log
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
