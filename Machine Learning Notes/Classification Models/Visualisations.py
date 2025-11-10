@@ -314,7 +314,7 @@ def plot_optimised_betas(beta_hist, loss_hist):
     fig.show()
 
     # Export to HTML file
-    # fig.write_html("beta_optimisation_plotly.html")
+    fig.write_html("beta_optimisation_plotly.html")
 
 
 
